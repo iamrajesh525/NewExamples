@@ -22,7 +22,7 @@ import java.util.ArrayList;
  * Created by Rajesh on 12/15/2016.
  */
 
-public class InstituteViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class RecylerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private ArrayList<InstituteListModel> list;
     Context mContext;
@@ -78,7 +78,7 @@ public class InstituteViewAdapter extends RecyclerView.Adapter<RecyclerView.View
         }
     }
 
-    public InstituteViewAdapter(Context mContext, ArrayList<InstituteListModel> list, RecyclerView mRecyclerView) {
+    public RecylerAdapter(Context mContext, ArrayList<InstituteListModel> list, RecyclerView mRecyclerView) {
         this.list = list;
         this.mRecyclerView = mRecyclerView;
         this.mContext = mContext;

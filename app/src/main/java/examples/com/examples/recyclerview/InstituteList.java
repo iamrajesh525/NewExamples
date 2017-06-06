@@ -1,6 +1,5 @@
 package examples.com.examples.recyclerview;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,10 +12,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -28,10 +24,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -46,7 +38,7 @@ public class InstituteList extends AppCompatActivity {
 
     ProgressBar progressBarItem;
     RecyclerView recyclerView;
-    InstituteViewAdapter mAdapter;
+    RecylerAdapter mAdapter;
     public ArrayList<InstituteListModel> list = new ArrayList<>();
     TextView alert;
     Button select_area;
@@ -73,7 +65,7 @@ public class InstituteList extends AppCompatActivity {
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        mAdapter = new InstituteViewAdapter(this, list, recyclerView);
+        mAdapter = new RecylerAdapter(this, list, recyclerView);
         recyclerView.setAdapter(mAdapter);
         mAdapter.setOnLoadMoreListener(new OnLoadMoreListener() {
             @Override
