@@ -6,22 +6,25 @@ package examples.com.examples;
 
 public class HttpsExample {
 
-    //libraries needed
+   /* //libraries needed
     compile files('libs/httpclient-4.3.6.jar')
     compile files('libs/httpmime-4.3.6.jar')
-    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpcore-4.3.3.jar')*/
 
 
+/*
 
+//object to call
     JSONObject object = new JSONObject();
                         object.put("", "");
     OBJECT = object.toString();
+*/
 
-   new sendForStafCheck().execute();
+   new ApiCall().execute();
 
 
     //API class
-    private class sendForStafCheck extends AsyncTask<String, Void, String> {
+    private class ApiCall extends AsyncTask<String, Void, String> {
         @Override
         protected String doInBackground(String... params) {
             String result = "";
