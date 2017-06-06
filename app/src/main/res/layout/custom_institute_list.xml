@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/inst_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/margin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Institute Name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_size" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mobile"
+                android:textColor="@color/ash"
+                android:textSize="@dimen/font_size_small" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/half_margin"
+        android:background="@color/light_ash" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/half_margin"
+        android:focusable="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/hsv_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"></LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/half_margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:maxLines="4"
+        android:text="descripton here"
+        android:textSize="@dimen/font_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/half_margin"
+        android:background="@color/light_ash" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/half_margin">
+
+        <ImageView
+            android:id="@+id/view"
+            android:layout_width="@dimen/list_view_bottom_img_size"
+            android:layout_height="@dimen/list_view_bottom_img_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/no_views"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/list_view_bottom_img_size"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/half_margin"
+            android:layout_toRightOf="@id/view"
+            android:gravity="center_vertical"
+            android:text="1234"
+            android:textColor="@color/ash"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/light_ash" />
+</LinearLayout>

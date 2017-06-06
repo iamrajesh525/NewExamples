@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- <color name="colorPrimary">#A1BBD8</color>-->
+    <!-- <color name="colorPrimary">#1976D2</color>
+     <color name="colorPrimaryDark">#49657B</color>
+     <color name="colorAccent">#5C84B0</color>-->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <!--darker than colorPrimaryDark-->
+    <color name="dark_blue">#49657B</color>
+    <color name="sky_blue">#C5CCD4</color>
+    <color name="black">#000000</color>
+    <color name="red">#f11010</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#15af07</color>
+    <color name="ash">#616161</color>
+    <color name="medium_ash">#9c9b9b</color>
+    <color name="light_ash">#EAE9E9</color>
+    <color name="same_as_colorAccent">#5C84B0</color>
+    <color name="filter_button">#838080</color>
+    <color name="turorial_back">#D9262626</color>
+    <color name="translucent_black">#80000000</color>
+
+
+
 </resources>

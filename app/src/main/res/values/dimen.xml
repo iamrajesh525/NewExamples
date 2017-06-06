@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_margin_top">15dp</dimen>
+    <dimen name="nav_header_img_size">60dp</dimen>
+    <dimen name="nav_header_cat_img_size">25dp</dimen>
+    <dimen name="nav_header_right_arrow_img_size">25dp</dimen>
+    <dimen name="nav_header_item_size">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="large_margin">40dp</dimen>
+    <dimen name="layout_height">35dp</dimen>
+    <dimen name="line_margin">0.3dp</dimen>
+
+    <dimen name="half_margin">5dp</dimen>
+    <dimen name="top">10dp</dimen>
+    <dimen name="bottom">10dp</dimen>
+    <dimen name="button_size">35dp</dimen>
+
+    <dimen name="text_size_login_register">16sp</dimen>
+    <dimen name="margin_bw_widgets">10dp</dimen>
+    <dimen name="actionbar_size">45dp</dimen>
+    <dimen name="card_view_corner_radius">4dp</dimen>
+
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="register_img_size">150dp</dimen>
+    <dimen name="list_view_img_size">25dp</dimen>
+    <dimen name="list_view_bottom_img_size">20dp</dimen>
+
+    <dimen name="profile_page_image_size">200dp</dimen>
+    <dimen name="profile_inst_title_size">16sp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="divider">8dp</dimen>
+    <dimen name="progree_bar_size">30dp</dimen>
+    <dimen name="slide_menu_item_size">50dp</dimen>
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="chat_list_height">40dp</dimen>
+
+</resources>
