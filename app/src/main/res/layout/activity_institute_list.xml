@@ -34,7 +34,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="@dimen/margin"
-                    android:background="@mipmap/left_arrow" />
+                    android:background="@mipmap/ic_launcher" />
             </RelativeLayout>
 
             <TextView
@@ -60,7 +60,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginRight="18dp"
-                    android:background="@drawable/ic_filter_list_black_24dp" />
+                    android:background="@mipmap/ic_launcher" />
 
             </RelativeLayout>
 
