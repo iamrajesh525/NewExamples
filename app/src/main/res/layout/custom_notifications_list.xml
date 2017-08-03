@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noti_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:gravity="left|center"
+        android:textColor="@color/ash"
+        android:text="Notification message appears her ierueiru  iereu  eiurieur  oiueuroi  ieirue ri"
+        android:padding="@dimen/half_margin"
+        android:textSize="@dimen/font_size" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:background="@color/light_ash"
+        android:layout_marginTop="@dimen/half_margin"
+        />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingRight="@dimen/margin"
+        android:textColor="@color/black"
+        android:gravity="right|center"
+        android:textSize="12sp"
+        android:text="10 jun 2017"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:background="@color/light_ash" />
+</LinearLayout>
